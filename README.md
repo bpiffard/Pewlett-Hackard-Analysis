@@ -20,7 +20,7 @@ The goal of this anaylsis was to generate as list of employees that are eligible
 
 ![mentors_dept](https://user-images.githubusercontent.com/102263341/178903898-05ae1ac3-41e5-46b1-8f40-7a9ced135f1a.png)
 
-- Not really part of my analysis, but just for curiosity's sake, here are the potenial metors by department alone. Developemnt is in the best position, while Finance is in the worst. Again the severity of this is largely dependent on how many employees these departyments really need, as in, how much of a percentage of the deprtment. That, however, si out of the scope of thios analysis.
+- Not really part of my analysis, but just for curiosity's sake, here are the potenial metors by department alone. Developemnt is in the best position, while Finance is in the worst. Again the severity of this is largely dependent on how many employees these departyments really need, as in, how much of a percentage of the deprtment. That, however, is out of the scope of this analysis.
 
 ## Summary
 ### Question 1: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
