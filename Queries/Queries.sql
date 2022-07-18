@@ -109,3 +109,29 @@ INNER JOIN dept_emp AS de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
+
+-- List for sales
+SELECT ce.emp_no,
+	ce.last_name,
+	ce.first_name,
+	d.dept_name
+INTO for_sales
+FROM current_emp as ce
+INNER JOIN dept_emp as de
+ON (ce.emp_no = de.emp_no)
+INNER JOIN departments as d 
+ON (de.dept_no = d.dept_no)
+WHERE (de.dept_no = 'd007');
+
+-- List for mentoring program eligibility (in sales and development departments)
+SELECT ce.emp_no,
+	ce.last_name,
+	ce.first_name,
+	d.dept_name
+INTO mentor_program
+FROM current_emp as ce
+INNER JOIN dept_emp as de
+ON (ce.emp_no = de.emp_no)
+INNER JOIN departments as d 
+ON (de.dept_no = d.dept_no)
+WHERE de.dept_no  IN ('d005', 'd007');
